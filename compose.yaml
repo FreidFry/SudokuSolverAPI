@@ -1,0 +1,7 @@
+﻿services:
+  sudokusolver.api:
+    image: sudokusolver.api
+    build:
+      context: .
+      dockerfile: SudokuSolver.API/Dockerfile
+
